@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ColorMaker.MainPage">
+
+   <ContentPage.Resources>
+        <Color x:Key="Primary">#C82401</Color>
+        <Color x:Key="Secondary">#0168C8</Color>
+        <Color x:Key="Tertiary">#77D315</Color>
+        <Color x:Key="Success">#D8C616</Color>
+        <Color x:Key="Error">#fc6847</Color>
+        <Color x:Key="Primary Black">Black</Color>
+    </ContentPage.Resources>
+
+    <Grid x:Name="mainGridLayout"
+          BackgroundColor="{StaticResource Success}">
+        <Frame x:Name="mainFrame"
+               Margin="5"
+               Padding="10"
+               HorizontalOptions="Center"
+               VerticalOptions="Center">
+            <VerticalStackLayout VerticalOptions="Center">
+                 <Label FontSize="Title"
+                        FontFamily="Lobster"
+                        HorizontalOptions="Center"
+                        Margin="10"
+                        TextColor="{StaticResource Primary Black}"
+                        Text="Color Maker"/>
+                <VerticalStackLayout Margin="15">
+                    <Label FontSize="Medium"
+                           FontFamily="Lobster"
+                           TextColor="{StaticResource Primary Black}"
+                           Text="Red Value:"/>
+                    <Slider x:Name="redSlider"
+                            MinimumTrackColor="{StaticResource Primary}"
+                            ThumbColor="{StaticResource Primary}"
+                            Margin="10"
+                            Minimum="0"
+                            Maximum="255"
+                           />
+
+
+                    <Label FontSize="Medium"
+                           FontFamily="Lobster"
+                           TextColor="{StaticResource Primary Black}"
+                           Text="Blue Value:"/>
+                    <Slider x:Name="blueSlider"
+                            MinimumTrackColor="{StaticResource Secondary}"
+                            ThumbColor="{StaticResource Secondary}"
+                            Margin="10"
+                            Minimum="0"
+                            Maximum="255"
+                            />
+
+                    <Label FontSize="Medium"
+                           FontFamily="Lobster"
+                           TextColor="{StaticResource Primary Black}"
+                           Text="Green Value:"/>
+                    <Slider x:Name="greenSlider"
+                            MinimumTrackColor="{StaticResource Tertiary}"
+                            ThumbColor="{StaticResource Tertiary}"
+                            Margin="10"
+                            Minimum="0"
+                            Maximum="255"
+                            />
+
+                    <Frame CornerRadius="25"
+                           HorizontalOptions="Center">
+                        <HorizontalStackLayout>
+                            <Label x:Name="labelHexColor"
+                               FontSize="Medium"
+                               FontFamily="Lobster"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               Text="HEX: #000000"
+                               TextColor="{StaticResource Primary Black}"/>
+                            <ImageButton
+                                         Source="copy.png"
+                                         Margin="10,0,10,0"
+                                         HeightRequest="25"
+                                         WidthRequest="25"
+                                         Clicked="CopyToClipboard"/>
+                        </HorizontalStackLayout>
+                    </Frame>
+
+                    <Button x:Name="buttonGenerateRandomColor"
+                            Margin="0,50,0,0"
+                            Text="Generate random color"
+                            FontFamily="Lobster"
+                            FontSize="Medium"
+                            BackgroundColor="{StaticResource Success}"
+                            Clicked="CreateRandomColor">
+                    </Button>
+
+                </VerticalStackLayout>
+
+            </VerticalStackLayout>
+        </Frame>
+    </Grid>
+
+</ContentPage>
+

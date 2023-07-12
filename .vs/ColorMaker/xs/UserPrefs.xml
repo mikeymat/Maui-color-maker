@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{957AC31B-C96E-48F4-83E1-DAC56DBF8976}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ColorMaker/MainPage.xaml">
+    <Files>
+      <File FileName="ColorMaker/MainPage.xaml.cs" Line="9" Column="88" />
+      <File FileName="ColorMaker/MainPage.xaml" Line="92" Column="57" />
+      <File FileName="ColorMaker/App.xaml" />
+      <File FileName="ColorMaker/App.xaml.cs" />
+      <File FileName="ColorMaker/Platforms/MacCatalyst/Program.cs" />
+      <File FileName="ColorMaker/MauiProgram.cs" />
+      <File FileName="ColorMaker/AppShell.xaml" />
+      <File FileName="ColorMaker/AppShell.xaml.cs" />
+      <File FileName="ColorMaker/Platforms/Android/MainActivity.cs" />
+      <File FileName="ColorMaker/Platforms/Android/MainApplication.cs" />
+      <File FileName="ColorMaker/Resources/Images/copy.svg" />
+      <File FileName="../../.nuget/packages/communitytoolkit.maui/5.2.0/readme.txt" />
+      <File FileName="ColorMaker/Resources/AppIcon/appicon.svg" />
+      <File FileName="ColorMaker/Resources/AppIcon/appiconfg.svg" />
+      <File FileName="ColorMaker/Resources/Splash/splash.svg" />
+      <File FileName="ColorMaker/ColorMaker.csproj" />
+      <File FileName="ColorMaker/Platforms/Android/AndroidManifest.xml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ColorMaker" expanded="True">
+            <Node name="ColorMaker" expanded="True">
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True" />
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="AppIcon" expanded="True" />
+                <Node name="Images" expanded="True" />
+                <Node name="Splash" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
+  <MonoDevelop.Ide.ItemProperties.ColorMaker PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
